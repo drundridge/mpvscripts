@@ -11,16 +11,16 @@
 
 -- User Configurable Settings --
 
-local var_AutoTag_TagName		= "Watched"								-- Set name of tag to add when watched. "Watched" is reccomended.
-local var_AutoTag_TriggerPos	= 85									-- Set watch percentage of media runtime required to trigger tag application. 85 is reccomended.
+local var_AutoTag_TagName	= "Watched"				-- Set name of tag to add when watched. "Watched" is reccomended.
+local var_AutoTag_TriggerPos	= 85					-- Set watch percentage of media runtime required to trigger tag application. 85 is reccomended.
 
-local var_AutoTag_MinLength		= 60
+local var_AutoTag_MinLength	= 60
 
 local array_AutoTag_Whitelist	= {"Anime", "Fiction", "catchup_del"}	-- Restrict tagging to media whose directory paths contains certain text. Use {""} to tag all media watched.
-local array_AutoTag_DelList		= {"catchup_del"}						-- Restrict deletion to media whose directory paths contains certain text. Use {""} to delete all media watched, or Use {} to disable deletion.
+local array_AutoTag_DelList	= {"catchup_del"}			-- Restrict deletion to media whose directory paths contains certain text. Use {""} to delete all media watched, or Use {} to disable deletion.
 
-local var_AutoTag_OSDMessages	= false									-- Show OSD message when tag is updated. Should be turned off.
-local var_AutoTag_Logging		= true									-- Enable logging to console
+local var_AutoTag_OSDMessages	= false					-- Show OSD message when tag is updated. Should be turned off.
+local var_AutoTag_Logging	= true					-- Enable logging to console
 
 
 -- Script --
