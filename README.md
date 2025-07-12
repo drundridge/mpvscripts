@@ -8,7 +8,9 @@ This allows you to keep track of which episode you're up to in your file manager
 
 <img src="/.readme_assets/screenshot.png?raw=true" />
 
-The name of the tag applied, requisite watch percentagte, and whitelisted directories are user configurable. Supports symlinked files. Optionally deletes symlinks in seperately whitelisted directories (for the usecase of making a temporary playlist out of links to catch up). 
+The name of the tag applied, requisite watch percentage, and whitelisted directories are user configurable. Supports tagging symlinked files.
+
+Also optionally removes symlinks after the linked episode is fully watched from seperately whitelisted directories, for the usecase of -- if you've configured qBittorrent to drop all new downloads to global "New Episodes" directory as a pseudo-playlist -- removing those playlist entries after completion as well. 
 
 Only supports Linux. (Does Windows even support tags anymore?)
 
